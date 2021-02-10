@@ -1,3 +1,0 @@
-# frances-thomas
-
-Practicing git
