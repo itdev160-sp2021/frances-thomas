@@ -1,9 +1,10 @@
 body {
   font-family: "Open Sans", sans-serif;
+  color: #555;
 }
 
 h1 {
-  color: #555;
+  color: #000;
   background-color: #eee;
 }
 
