@@ -11,6 +11,16 @@ var data = [
     price: 10.50,
     selector: 'p1'
     },
+       {
+    name: 'atom-beautify',
+    description: 'The atom-beautify package will clean up your code , and make it more readable.',
+    author: 'Glavin001',
+    url:'https://atom.io/packages/atom-beautify',
+    downloads: 4228040,
+    stars: 4542,
+    price: 6.75,
+    selector: 'p2'
+    },
 ];
 
 // (Atom) Package constructor function
