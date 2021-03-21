@@ -21,6 +21,16 @@ var data = [
     price: 6.75,
     selector: 'p2'
     },
+    {
+    name: 'autoclose-html-plus',
+    description: 'This autoclose-html-plus package automatically closes HTML tags for you once you’ve typed the first tag.',
+    author: 'binaryfunt',
+    url:'https://atom.io/packages/autoclose-html-plus',
+    downloads: 45042,
+    stars: 2356,
+    price: 8.45,
+    selector: 'p3'
+    }
 ];
 
 // (Atom) Package constructor function
@@ -87,7 +97,16 @@ dateEl.textContent = getTodaysDate();
 
 //Write package data one-by-one
 
-var emmet = new Package(data[0]);
-writePackageInfo(emmet);
+// var emmet = new Package(data[0]);
+// writePackageInfo(emmet);
+
+// var beautify = new Package(data[1]);
+//   writePackageInfo(beautify);
+
+ for(var i = 0; i < data.length; i++) {
+  var package = new Package(data[i]);
+  writePackageInfo(package);
+}
+
 
 }());
