@@ -1,6 +1,7 @@
 body {
   max-width: 500px;
   margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 .messages {
