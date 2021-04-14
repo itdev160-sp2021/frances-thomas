@@ -34,7 +34,7 @@ listEl.appendChild(taskEl);
 //Click handler to add a new task
 function addTask (event) {
     var inputEl = document.getElementById('input-task');
-    if (inputEl.value != '') {
+    if (inputEl.value !== '') {
         //Create a unique id
         var id = 'item-' + tasks.length;
 
